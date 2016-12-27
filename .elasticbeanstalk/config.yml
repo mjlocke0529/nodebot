@@ -1,0 +1,13 @@
+branch-defaults:
+  default:
+    environment: nodebot-dev
+    group_suffix: null
+  master:
+    environment: nodebot-dev
+global:
+  application_name: nodebot
+  default_ec2_keyname: null
+  default_platform: node.js
+  default_region: us-west-2
+  profile: eb-cli
+  sc: null
